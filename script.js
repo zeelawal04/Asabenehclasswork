@@ -13,10 +13,10 @@ console.log(quote);
 //no3
 let number = 10;
 let string = "10";
-console.log(number == string);
+console.log(parseInt(string) === number);
 
 //no4
-let num = 9.8;
+let num = parseFloat("9.8");
 console.log(Math.round(num));
 
 //no5
@@ -33,7 +33,7 @@ let numb = Math.floor(Math.random() * 101);
 console.log(numb);
 
 //n08
-numb = Math.floor(Math.random() * 50) + 50;
+numb = Math.floor(Math.random() * 51) + 50;
 console.log(numb);
 
 //n09
@@ -41,9 +41,12 @@ numb = Math.floor(Math.random() * 256);
 console.log(numb);
 
 //no10
-console.log(Math.random("JavaScript"));
+let n = Math.floor(Math.random() * 10);
+console.log("javascript".charAt(n));
 
 //no11
+let numbers = "1 1 1 1 1\n2 1 2 4 8\n3 1 3 9 27\n4 1 4 16 64\n5 1 5 25 125";
+console.log(numbers);
 
 //no12
 let eng =
